@@ -1,0 +1,16 @@
+/*Write a function called describe_city() that accepts the name of
+a city and */
+function describe_city(nameOfCity:string,nameOfCountry:string){
+    return` ${nameOfCity} is in ${nameOfCountry}`;
+};
+// 3 cities
+
+let city1=describe_city("Cape town","South Africa");
+let city2= describe_city("Dubai","UAE");
+let city3= describe_city("Hydrabad","Pakistan");
+let city4= describe_city("Istambul","Turkey");
+
+console.log(city1);
+console.log(city2);
+console.log(city3);
+console.log(city4);
